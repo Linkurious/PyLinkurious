@@ -5,7 +5,7 @@
 
 - `git clone git@github.com:Linkurious/PyLinkurious.git`
 - Install [Node.js](http://nodejs.org/).
- - Use `npm install` to install dependencies.
+- Use `npm install` to install dependencies.
 
 ## Demo
 
