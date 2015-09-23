@@ -1,5 +1,5 @@
 # PyLinkurious
-[Linkurious.js](https://github.com/Linkurious/linkurious.js) integration with the [IPython Notebooks](http://ipython.org/notebook.html).
+[Linkurious.js](https://github.com/Linkurious/linkurious.js) integration with the [IPython Notebook](http://ipython.org/notebook.html).
 
 ## Install
 
@@ -40,14 +40,16 @@ function setUpFrame() {
   // Load a graph sample:
   LK.sigma.graph.read({
     nodes: [
-      { id: 'n0' },
-      { id: 'n1' }
+      { id: 'n0', label: 'Node 0', x: 0, y: 0, size: 1 },
+      { id: 'n1', label: 'Node 1', x: 50, y: -10, size: 1 }
     ],
     edges: [
       {
         id: 'e0',
+        label: 'Edge 0',
         source: 'n0',
-        target: 'n1'
+        target: 'n1',
+        size: 1
       }
     ]
   });
