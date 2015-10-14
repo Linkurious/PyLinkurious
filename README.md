@@ -1,5 +1,5 @@
 # PyLinkurious
-[Linkurious.js](https://github.com/Linkurious/linkurious.js) integration with the [IPython Notebook](http://ipython.org/notebook.html).
+[Linkurious.js](https://github.com/Linkurious/linkurious.js) integration with the [Jupyter Notebook](https://jupyter.org/).
 
 ## Install
 
